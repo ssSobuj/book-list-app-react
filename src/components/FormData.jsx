@@ -60,7 +60,7 @@ export default function FormData({ books, setBooks }) {
           onChange={(e) => setisbn(e.target.value)}
         ></input>
         <br></br>
-        <label>Pulish Year</label>
+        <label>Publish Year</label>
         <input
           type="text"
           className="form-control"
