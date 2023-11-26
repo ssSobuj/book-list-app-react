@@ -15,7 +15,6 @@ export default function Home() {
     localStorage.setItem("books", JSON.stringify(books))
   },[books])
 
-  console.log(books);
   return (
     <>
         <div className="wrapper">

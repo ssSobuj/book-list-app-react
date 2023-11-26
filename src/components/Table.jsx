@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
-import BookRow from './BookRow';
+
+import BookRow from "./bookRow";
 
 export default function Table({ books, setBooks }) {
   const deleteBook = (id) => {
